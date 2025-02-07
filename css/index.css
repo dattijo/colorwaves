@@ -1084,7 +1084,7 @@ img {
 
 .schedule {
     color: #fff;
-    background: url(../img/placeholder.jpg) center/cover no-repeat;
+    background: url(../img/colorwavesPix/background_buckets_only.jpg) center/cover no-repeat;
     position: relative
 }
 
@@ -1542,7 +1542,7 @@ img {
 }
 
 .promo_popup {
-    background: url(../img/placeholder.jpg) center/cover no-repeat,rgba(32,32,32,.7);
+    background: url(../img/colorwavesPix/banner_stationery_right.jpg) center/cover no-repeat,rgba(32,32,32,.7);
     background-blend-mode: overlay;
     padding: 30px;
     max-width: 650px;
