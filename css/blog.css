@@ -1088,6 +1088,27 @@ img {
     align-items: center
 }
 
+.footer .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensures equal spacing */
+    align-items: flex-start;
+}
+
+.footer_contacts {
+    flex-basis: 48%; /* Adjusts width */
+    margin-left: 30px; /* Moves it away from the logo */
+}
+
+.footer_newsletter {
+    flex-basis: 48%; /* Ensures equal width */
+}
+
+.footer_copyright-container {
+    justify-items: end;
+    margin-right: 1%;
+}
+
 @media screen and (min-width:575.98px) {
     .footer_newsletter-form .field {
         margin-bottom: 0;
