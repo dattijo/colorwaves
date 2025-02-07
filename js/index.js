@@ -44,14 +44,13 @@ document.addEventListener('DOMContentLoaded', () => {
 function openPromoModal() {
     if (window.pageYOffset > 1000 && !isShown) {
         drawNotification({
-            title: 'Bring a friend and get a 10% discount card',
+            title: 'Up to 20% discount for our first ten (10) clients',
             showCloseButton: true,
             closeButtonHtml: `
                 <i class="icon-close"></i>
             `,
             html: `
-                    <p class="main text">Vitae nunc, dolor, blandit eget eleifend etiam id.
-                        <span class="linebreak">Amet arcu lobortis sed pulvinar cursus pretium sit pretium.</span>
+                    <p class="main text">Hurry up and enjoy the limited promo. Book now and get up to 20% discount for our first ten (10) clients.
                     </p>
                     <a class="btn theme-element" href="#">Book now</a>
                 `,
