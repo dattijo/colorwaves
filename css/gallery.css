@@ -20,42 +20,42 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/Inter_18pt-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/Inter_18pt-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/Inter_18pt-Bold.ttf') format('truetype');
+    src: url('../assets/fonts/Inter_18pt-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/Inter_18pt-Italic.ttf') format('truetype');
+    src: url('../assets/fonts/Inter_18pt-Italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/Inter_18pt-SemiBold.ttf') format('truetype');
+    src: url('../assets/fonts/Inter_18pt-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/Inter_18pt-Light.ttf') format('truetype');
+    src: url('../assets/fonts/Inter_18pt-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/Inter_18pt-Medium.ttf') format('truetype');
+    src: url('../assets/fonts/Inter_18pt-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -148,7 +148,8 @@ body {
     background: #1A001A;
     font-size: 16px;
     line-height: 1.7;
-    font-family: Roboto,sans-serif
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* Regular */
 }
 
 body.swal2-shown {
@@ -167,10 +168,25 @@ main {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: Oswald,sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; /* Bold */
+    /* text-transform: uppercase; */
     color: #fff
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+strong {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600; /* SemiBold */
+}
+
+.emphasized-text {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
 }
 
 h1 {
@@ -233,8 +249,8 @@ img {
 }
 
 .section_header-subtitle {
-    text-transform: uppercase;
-    font-family: Oswald,sans-serif;
+    /* text-transform: uppercase; */
+    /* font-family: Oswald,sans-serif; */
     font-weight: 600;
     color: #2c2c2c;
     font-size: 100px;
@@ -256,7 +272,7 @@ img {
     color: #fff;
     text-transform: uppercase;
     border: 2px solid #79C214 ;
-    font-family: Oswald,sans-serif;
+    /* font-family: Oswald,sans-serif; */
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;
@@ -369,7 +385,7 @@ img {
 
 .link--underline {
     position: relative;
-    text-transform: uppercase
+    /* text-transform: uppercase */
 }
 
 .link--underline:after {
@@ -406,8 +422,8 @@ img {
 
 .brand-logo_name {
     color: #fff;
-    text-transform: uppercase;
-    font-family: Oswald,sans-serif;
+    /* text-transform: uppercase;
+    font-family: Oswald,sans-serif; */
     font-weight: 500;
     font-size: 28px;
     line-height: 1
@@ -640,10 +656,10 @@ img {
 }
 
 .header_nav-list_item {
-    font-family: Oswald,sans-serif;
+    /* font-family: Oswald,sans-serif; */
     font-weight: 500;
     font-size: 16px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #fff
 }
 
@@ -674,6 +690,19 @@ img {
 
 .header_btn {
     display: none
+}
+
+.btn {
+    color: #222;
+    font-weight: 700;  /* Semi-bold for clarity */
+    padding: 14px 26px; /* Increase vertical and horizontal padding */
+    letter-spacing: 1px; /* Spreads out text slightly */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.no-round {    
+    border-radius: 0;
 }
 
 @media screen and (min-width:991.98px) {
@@ -762,6 +791,12 @@ img {
         width: unset
     }
 
+    .nav-link {
+        font-weight: 300;
+        letter-spacing: 0.7px; /* Slightly increases spacing between letters */
+        padding: 10px 5px; /* Adjusts spacing around menu items */
+    }
+
     .header_nav-list .dropdown-menu {
         position: absolute;
         opacity: 0;
@@ -817,8 +852,8 @@ img {
     display: inline-block;
     border: 2px solid #79C214 ;
     color: #fff;
-    text-transform: uppercase;
-    font-family: Oswald,sans-serif;
+    /* text-transform: uppercase; */
+    /* font-family: Oswald,sans-serif; */
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;
@@ -1008,10 +1043,10 @@ img {
 }
 
 .footer_contacts-tel .link {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 18px;
     line-height: 1.5;
-    font-family: Oswald,sans-serif;
+    /* font-family: Oswald,sans-serif; */
     font-weight: 500
 }
 
@@ -1145,7 +1180,7 @@ img {
 
 @media screen and (min-width:991.98px) {
     .footer {
-        padding: 110px 0
+        padding: 110px 0 10px 0;
     }
 
     .footer_logo {
