@@ -8051,7 +8051,7 @@ button.swiper-pagination-bullet {
 }
 
 .pickmeup {
-    background: #202020;
+    background: #1A001A;
     border-radius: .4em;
     border: 2px solid #fff;
     -webkit-box-sizing: content-box;
@@ -8094,13 +8094,13 @@ button.swiper-pagination-bullet {
 }
 
 .pickmeup .pmu-instance .pmu-today {
-    background: #202020;
-    color: #8e44ad
+    background: #1A001A;
+    color: #79C214 
 }
 
 .pickmeup .pmu-instance .pmu-button:hover {
     background: rgba(0,0,0,0);
-    color: #8e44ad
+    color: #79C214 
 }
 
 .pickmeup .pmu-instance .pmu-not-in-month {
@@ -8113,12 +8113,12 @@ button.swiper-pagination-bullet {
 }
 
 .pickmeup .pmu-instance .pmu-selected {
-    background: #8e44ad;
+    background: #79C214 ;
     color: #eee
 }
 
 .pickmeup .pmu-instance .pmu-not-in-month.pmu-selected {
-    background: #202020
+    background: #1A001A
 }
 
 .pickmeup .pmu-instance nav {
@@ -8234,7 +8234,7 @@ button.swiper-pagination-bullet {
     z-index: 1;
     width: 100%;
     scrollbar-width: auto;
-    scrollbar-color: #fff #202020
+    scrollbar-color: #fff #1A001A
 }
 
 .custom-select-panel::-webkit-scrollbar {
@@ -8242,7 +8242,7 @@ button.swiper-pagination-bullet {
 }
 
 .custom-select-panel::-webkit-scrollbar-track {
-    background: #202020
+    background: #1A001A
 }
 
 .custom-select-panel::-webkit-scrollbar-thumb {
@@ -8253,7 +8253,7 @@ button.swiper-pagination-bullet {
 
 .custom-select-option {
     padding: 11px 18px;
-    background: #202020;
+    background: #1A001A;
     cursor: pointer;
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
@@ -8261,7 +8261,7 @@ button.swiper-pagination-bullet {
 }
 
 .custom-select-option.is-selected {
-    background: #8e44ad;
+    background: #79C214 ;
     color: #fff
 }
 
