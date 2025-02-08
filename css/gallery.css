@@ -9,7 +9,7 @@
  * @license         Envato License https://1.envato.market/KYbje
  * @contributors    Lamber Lilith (winter.rituel@gmail.com)
  * @support         help@merkulov.design
- **/
+ **/ 
 * {
     margin: 0;
     padding: 0;
@@ -194,7 +194,7 @@ img {
     font-family: Oswald,sans-serif;
     font-weight: 600;
     color: #2c2c2c;
-    font-size: 80px;
+    font-size: 100px;
     line-height: 1;
     position: absolute;
     z-index: -1;
