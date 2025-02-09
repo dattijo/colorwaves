@@ -1747,5 +1747,13 @@ img {
     }
 }
 
+span.icon img {
+    width: 60px
+}
+
+.custom-svg{
+    color:#79C214
+}
+
 
 /*# sourceMappingURL=../sourcemaps/index.css.map */
