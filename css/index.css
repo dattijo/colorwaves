@@ -267,8 +267,7 @@ img {
 }
 
 .theme-element {
-    text-align: center;
-    /* fec_602 8E4_4AD*/
+    text-align: center;    
     background: #79C214 ;
     color: #222;
     text-transform: uppercase;
