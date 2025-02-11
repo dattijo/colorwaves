@@ -944,7 +944,8 @@ img {
 
     .post_main-article_content .list {
         margin: 35px 0;
-        width: calc(50% - 5px)
+        /* width: calc(50% - 5px) */
+        width: 100%;
     }
 
     .post_main-article_content .list-item .marker {
@@ -981,7 +982,8 @@ img {
 
 @media screen and (min-width:1199.98px) {
     .post_main-article_content .list {
-        width: calc(50% - 15px)
+        /* width: calc(50% - 15px) */
+        width: 100%;
     }
 
     .post_main-article_content .list-item .marker {
